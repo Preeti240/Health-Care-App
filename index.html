@@ -1,0 +1,159 @@
+ <!DOCTYPE html>
+<!-- Created by Mohammed Abdulla-->
+ <html>
+	<head>
+		<meta charset="utf-8">
+		<title> KC Clinic</title>
+		<link href="index.css" rel="stylesheet" type="text/css" />
+		<script src="index.js" ></script>
+		<body>
+		<div id="page">
+			<header id="header">
+				<div id="header-left">	
+					<div id="logo">
+						<a href="index.html"><img src="KCClogo.png" alt="kc clinic"  /></a>
+					<div id="topNav">
+						<ul>
+						<li><a href="aboutUs.html">About</a></li> 
+						<li><a href="#">Help</a></li>
+						</ul>
+					</div>
+					</div>
+					<!--<div id="topNav">
+						<ul>
+						<li><a href="about.html">About</a></li> <!-- Make a page for this listWSS
+						<li><a href="#">Help</a></li>
+						</ul>
+					</div>
+					-->
+					
+					<div class="clr"></div><!--FOR CSS TO CLEAR THE SIDES IN T HE PAGE -->
+				</div>
+			</header>
+				<nav class="mainHeading" >
+			
+					<div class="nav">
+						<ul class="men">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="docs.php">Doctors</a></li>
+							 <li class="dropdown">
+								<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Pateint & Visitors</a>
+								<div class="dropdown-content" id="myDropdown">
+								  <a href="appointment.php">Appointments</a>
+								  <a href="payBill.php">Pay Bill</a>
+								  <a href="pharmacy.php">Pharmacy & Store</a>
+								  
+								</div>
+							 </li>
+							<li><a href="contact.php">Contact Us</a></li>
+						</ul>
+					</div>
+					
+				</nav>
+				<div class="page2" >
+		
+				<div id="contentIndx">
+					<div id="content-inner">
+					
+						<main id="contentBarIndex" >
+							<div class="articles">
+								<div class="desc" style = "width:100%;">
+									<div class="w3-content w3-section" style="max-width:900px">
+									  <img class="mySlides" src="images/slider1.png" style="width:113.12%; ">
+									  <img class="mySlides" src="images/slider2.jpg" style="width:113.12%">
+									  <img class="mySlides" src="images/slider3.jpg" style="width:113.12%">
+									</div>
+									
+								</div>
+								<div class="hBanner">
+									<a href="docs.php"><div class="banner1 dv1">
+									<label class="dv1matter"> Search our Database of our Proffessionals by speciality, departments and Insurances to find the right fit for you</label>
+									</div></a>
+									<a href="appointment.php"><div class="banner1 dv2">
+										<b class="subheader" >Request an Appointment</b>
+										
+										
+									</div></a>
+									<div class="banner1 dv3">
+										<p class="subheader">Clinic Hours</p>
+										<p> <label class="pleft">Monday-Friday</label><label class="prght">8.00am-8.00pm</label></p>
+										<p> <label class="pleft">Saturday</label><label class="prght">9.90am-3.00pm</label></p>
+										<p> <label class="pleft">Sunday</label><label class="prght">9.00am-1.00pm</label></p>
+											
+									</div>
+									<div class="banner1 dv4">
+										<b class="subheader"> Top Doctors</b>
+										<p> Find the right Doctor for the help you need. Our Heatlh Center has specialist in every
+											sector of the field 
+										</p>
+									</div>
+								</div>
+								<div class="banner2">
+									<img src="images/banner2.jpg"/>
+								</div>
+								<div class="aboutDiv"> 
+									<div class="weAre">
+										<label class="wesub">Who We Are</label>
+										<p class="weDes">The Kansas City CLINIC is an integral part of the health care delivery system in the Kansas City community. 
+										The Clinic provides basic health care online services to people who want to benefit and browse and to those challenged with access to care. 
+										The Clinic helps keep the uninsured and underinsured healthy!
+										</p>
+									</div>
+									<div class="weAre weDo">
+										<label class="wesub">What We DO</label>
+										<p class="weDes">TThe Kansas City CARE Clinic promotes health and wellness by providing Online Services for Care, 
+										Access, Research and Education to the underserved and all people in our community.
+										</p>
+										<br>
+										<a href="aboutUs.html" class="link"><p >Learn more about the clinic website >></p></a>
+
+									</div>
+								</div>
+								<div class="clr"></div>
+								
+							</div>
+							
+						</main>
+							<!--<div class = "rightSection" >
+								<img src="app.png" class="appBtn">
+								<img src="findDoc.gif" class="findDocBtn">
+							</div>
+							-->
+						
+						
+						<div class="clr"></div>
+					</div>
+				</div>
+				<br style="clear: left;" />
+			</div>
+		
+			<div id="footerblurb">
+				<div id="footerblurb-inner">
+				</div>
+			</div>
+			<footer id="footer">
+				<div id="footer-inner">
+					<p>&copy; Copyright <a href="#">KC CLINIC</a> &#124; <a href="#">Terms of Use</a> &#124; <a href="#">Privacy Policy</a></p>
+					<div class="clr"></div>
+				</div>
+			</footer>
+			</div>
+		<script>
+			var myIndex = 0;
+			carousel();
+
+			function carousel() {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				for (i = 0; i < x.length; i++) {
+				   x[i].style.display = "none";
+				}
+				myIndex++;
+				if (myIndex > x.length) {myIndex = 1}
+				y= myIndex-1;
+				x[y].style.display = "block";
+				setTimeout(carousel, 3000); // Change image every 2 seconds
+			}
+		</script>
+	</body>
+</html>

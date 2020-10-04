@@ -1,0 +1,411 @@
+ <!DOCTYPE html>
+<!-- Created by Mohammed Abdulla-->
+ <html>
+	<head>
+		<meta charset="utf-8">
+		<title>Vitamins & Protien</title>
+		<link href="index.css" rel="stylesheet" type="text/css" />
+		<script src="map.js"> </script> 
+		<script src="index.js" ></script>
+		
+
+	</head>
+	<body >
+		<div id="page" >
+			<header id="header">
+				<div id="header-left">	
+					<div id="logo">
+						<a href="index.html"><img src="KCClogo.png" alt="kc clinic"  /></a>
+					<div id="topNav">
+						<ul>
+						<li><a href="aboutUs.html">About</a></li> 
+						<li><a href="#">Help</a></li>
+						</ul>
+					</div>
+					</div>
+					
+					
+					<div class="clr"></div><!--FOR CSS TO CLEAR THE SIDES IN T HE PAGE -->
+				</div>
+			</header>
+			<nav class="mainHeading" >
+			
+					<div class="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="docs.php">Doctors</a></li>
+							 <li class="dropdown">
+								<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Pateint & Visitors</a>
+								<div class="dropdown-content" id="myDropdown">
+								  <a href="appointment.php">Appointments</a>
+								  <a href="payBill.php">Pay Bill</a>
+								  <a href="pharmacy.php">Pharmacy & Store</a>
+								  
+								</div>
+							 </li>
+							<li><a href="contact.php">Contact Us</a></li>
+						
+					</div>
+					
+				</nav>
+			<div style = "width:100%;">
+				
+		
+				<div id="content" >
+					<div id="content-inner">
+					
+						<main id="contentBar">
+							<div class="article">
+								<div class = "bannerShop">
+									<div class="shopbanner1"><img src="images/vitamisBanner.jpg" class="bannerb1"><img src="images/vitaminsBanner.jpg" class="bannerb2"></div>
+								</div>
+								
+								<div class="marketGrid">
+									<div >
+										<ul class="breadcrumb">
+										  <li><a href="index.html">Home</a></li>
+										  <li><a href="pharmacy.php">Pharmacy Store</a></li>
+										  <li>Vitamins</li>
+										</ul>
+									
+									</div>
+									<div class="productGrid">
+										<div class="itemContainer" id="itemContainer1">
+											<div class="itemGrid">
+												<div class="productImage">
+													<img src="images/oneDay.jpg" id="imgIco1">
+												</div>
+												<div class="productPrice">
+													<label>$<span id="price1">10.49</span></label>
+												</div>
+												<div class="productLabel">
+													<span class="productName" id="productName1">One A Day Men's 50+ Healthy Advantage Multivitamin Tablets</span>
+												</div>
+												<div class="productAddBtn">
+													<p class="pQTY">QTY<input type="number" max="10" min="1"class="qauntity" id="qauntity1"/></p>
+													<button class="addBtn basket" id="addBasketBtn1" >Add to Basket</button>
+												</div>
+											</div>
+										</div>
+										<div class="itemContainer">
+											<div class="itemGrid">
+												<div class="productImage">
+													<img src="images/flintstones.jpg" id="imgIco2">
+												</div>
+												<div class="productPrice">
+													<label>$<span id="price2">17.99</span></label>
+												</div>
+												<div class="productLabel">
+													<span class="productName" id="productName2">Flintstones Complete Children's Multivitamin Supplement Gummies</span>
+												</div>
+												<div class="productAddBtn">
+													<p class="pQTY">QTY<input type="number" max="10" min="1"class="qauntity" id="qauntity2"/></p>
+													<button class="addBtn basket" id="addBasketBtn2" >Add to Basket</button>
+												</div>
+											</div>
+										</div>
+										<div class="itemContainer">
+											<div class="itemGrid">
+												<div class="productImage">
+													<img src="images/centrum.jpg" id="imgIco3">
+												</div>
+												<div class="productPrice">
+													<label>$<span id="price3">22.99</span></label>
+												</div>
+												<div class="productLabel">
+													<span class="productName" id="productName3">Centrum Adult Tablets</span>
+												</div>
+												<div class="productAddBtn">
+													<p class="pQTY">QTY<input type="number" max="10" min="1"class="qauntity" id="qauntity3"/></p>
+													<button class="addBtn basket" id="addBasketBtn3">Add to Basket</button>
+												</div>
+											</div>
+										</div>
+										<div class="itemContainer">
+											<div class="itemGrid">
+												<div class="productImage">
+													<img src="images/aliveWomen.jpg" id="imgIco4">
+												</div>
+												<div class="productPrice">
+													<label>$<span id="price4">11.99</span></label>
+												</div>
+												<div class="productLabel">
+													<span class="productName" id="productName4">Alive  Men's Gummy Vitamins</span>
+												</div>
+												<div class="productAddBtn">
+													<p class="pQTY">QTY<input type="number" max="10" min="1"class="qauntity" id="qauntity4"/></p>
+													<button class="addBtn basket" id="addBasketBtn4">Add to Basket</button>
+												</div>
+											</div>
+										</div>
+										<div class="itemContainer">
+											<div class="itemGrid">
+												<div class="productImage">
+													<img src="images/garcina.jpg" id="imgIco5">
+												</div>
+												<div class="productPrice">
+													<label>$<span id="price5">28.99</span></label>
+												</div>
+												<div class="productLabel">
+													<span class="productName" id="productName5">Creative Bioscience Garcinia Cambogia 1234</span>
+												</div>
+												<div class="productAddBtn">
+													<p class="pQTY">QTY<input type="number" max="10" min="1"class="qauntity" id="qauntity5"/></p>
+													<button class="addBtn basket"id="addBasketBtn5" >Add to Basket</button>
+												</div>
+											</div>
+										</div>
+										<div class="itemContainer">
+											<div class="itemGrid">
+												<div class="productImage">
+													<img src="images/cranberry.jpg" id="imgIco6">
+												</div>
+												<div class="productPrice">
+													<label>$<span id="price6">22.49</span></label>
+												</div>
+												<div class="productLabel">
+													<span class="productName" id="productName6">Nature's Bounty Cranberry Plus Vitamin C Softgels 4200mg</span>
+												</div>
+												<div class="productAddBtn">
+													<p class="pQTY">QTY<input type="number" max="10" min="1"class="qauntity" id="qauntity6"/></p>
+													<button class="addBtn basket" id="addBasketBtn6">Add to Basket</button>
+												</div>
+											</div>
+										</div>
+										<div class="itemContainer">
+											<div class="itemGrid">
+												<div class="productImage">
+													<img src="images/ginger.jpg" id="imgIco7">
+												</div>
+												<div class="productPrice">
+													<label>$<span id="price7">14.99</span></label>
+												</div>
+												<div class="productLabel">
+													<span class="productName" id="productName7">Nature's Way Ginger Root Certified 550mg Capsules</span>
+												</div>
+												<div class="productAddBtn">
+													<p class="pQTY">QTY<input type="number" max="10" min="1"class="qauntity" id="qauntity7"/></p>
+													<button class="addBtn basket" id="addBasketBtn7" >Add to Basket</button>
+												</div>
+											</div>
+										</div>
+										<div class="itemContainer">
+											<div class="itemGrid">
+												<div class="productImage">
+													<img src="images/oliveleaf.jpg" id="imgIco8">
+												</div>
+												<div class="productPrice">
+													<label>$<span id="price8">12.49</span></label>
+												</div>
+												<div class="productLabel">
+													<span class="productName" id="productName8">Nature's Way Olive Leaf Capsules</span>
+												</div>
+												<div class="productAddBtn">
+													<p class="pQTY">QTY<input type="number" max="10" min="1"class="qauntity" id="qauntity8"/></p>
+													<button class="addBtn basket" id="addBasketBtn8" >Add to Basket</button>
+												</div>
+											</div>
+										</div>
+										<div class="itemContainer">
+											<div class="itemGrid">
+												<div class="productImage">
+													<img src="images/bFlex.jpg" id="imgIco9">
+												</div>
+												<div class="productPrice">
+													<label>$<span id="price9">20.79</span></label>
+												</div>
+												<div class="productLabel">
+													<span class="productName" id="productName9">Osteo Bi-Flex Triple Strength Tablets</span>
+												</div>
+												<div class="productAddBtn">
+													<p class="pQTY">QTY<input type="number" max="10" min="1"class="qauntity" id="qauntity9"/></p>
+													<button class="addBtn basket"  id="addBasketBtn9">Add to Basket</button>
+												</div>
+											</div>
+										</div>
+										<div class="itemContainer">
+											<div class="itemGrid">
+												<div class="productImage">
+													<img src="images/flaxedseeds.jpg" id="imgIco10">
+												</div>
+												<div class="productPrice">
+													<label>$<span id="price10">8.99</span></label>
+												</div>
+												<div class="productLabel">
+													<span class="productName" id="productName10">Spectrum Essentials Cold Milled Ground Flax Seed, 14OZ/<span>
+												</div>
+												<div class="productAddBtn">
+													<p class="pQTY">QTY<input type="number" max="10" min="1"class="qauntity" id="qauntity10"/></p>
+													<button class="addBtn basket" id="addBasketBtn10">Add to Basket</button>
+												</div>
+											</div>
+										</div>
+										<div class="itemContainer">
+											<div class="itemGrid">
+												<div class="productImage">
+													<img src="images/fishoil.jpg" id="imgIco11">
+												</div>
+												<div class="productPrice">
+													<label>$<span id="price11">23.99</span></label>
+												</div>
+												<div class="productLabel">
+													<span class="productName" id="productName11">Nature's Bounty Fish Oil Softgels 1200mg</span>
+												</div>
+												<div class="productAddBtn">
+													<p class="pQTY">QTY<input type="number" max="10" min="1"class="qauntity" id="qauntity11"/></p>
+													<button class="addBtn basket" id="addBasketBtn11">Add to Basket</button>
+												</div>
+											</div>
+										</div>
+										<div class="itemContainer">
+											<div class="itemGrid">
+												<div class="productImage">
+													<img src="images/movefree.jpg" id="imgIco12">
+												</div>
+												<div class="productPrice">
+													<label>$<span id="price12">23.99</span></label>
+												</div>
+												<div class="productLabel">
+													<span class="productName" id="productName12">Move Free Glucosamine  MSM Vitamin D3 80CT</span>
+												</div>
+												<div class="productAddBtn">
+													<p class="pQTY">QTY<input type="number" max="10" min="1"class="qauntity" id="qauntity12"/></p>
+													<button class="addBtn basket" id="addBasketBtn12">Add to Basket</button>
+												</div>
+											</div>
+										</div>
+										<div class="itemContainer">
+											<div class="itemGrid">
+												<div class="productImage">
+													<img src="images/radiance.jpg" id="imgIco13">
+												</div>
+												<div class="productPrice">
+													<label>$<span id="price13">10.99</span></label>
+												</div>
+												<div class="productLabel">
+													<span class="productName" id="productName13">Radiance Platinum Vitamin E Oil Drops 30,000 IU, 2.5 OZ</span>
+												</div>
+												<div class="productAddBtn">
+													<p class="pQTY">QTY<input type="number" max="10" min="1"class="qauntity" id="qauntity13"/></p>
+													<button class="addBtn basket" id="addBasketBtn13">Add to Basket</button>
+												</div>
+											</div>
+										</div>
+										<div class="itemContainer">
+											<div class="itemGrid">
+												<div class="productImage">
+													<img src="images/dDrops.jpg" id="imgIco14">
+												</div>
+												<div class="productPrice">
+													<label>$<span id="price14">14.99</span></label>
+												</div>
+												<div class="productLabel">
+													<span class="productName" id="productName14">Ddrops Liquid Vitamin D3 for Baby 400 IU, 1 OZ</span>
+												</div>
+												<div class="productAddBtn">
+													<p class="pQTY">QTY<input type="number" max="10" min="1"class="qauntity" id="qauntity14"/></p>
+													<button class="addBtn basket" id="addBasketBtn14">Add to Basket</button>
+												</div>
+											</div>
+										</div>
+										<div class="itemContainer">
+											<div class="itemGrid">
+												<div class="productImage">
+													<img src="images/vitamits.jpg" id="imgIco15">
+												</div>
+												<div class="productPrice">
+													<label>$<span id="price15">16.79</span></label>
+												</div>
+												<div class="productLabel">
+													<span class="productName" id="productName15">Nature Made VitaMelts Vitamin C Immune Tablets Juicy Orange</span>
+												</div>
+												<div class="productAddBtn">
+													<p class="pQTY">QTY<input type="number" max="10" min="1"class="qauntity" id="qauntity15"/></p>
+													<button class="addBtn basket" id="addBasketBtn15">Add to Basket</button>
+												</div>
+											</div>
+										</div>
+										<div class="itemContainer">
+											<div class="itemGrid">
+												<div class="productImage">
+													<img src="images/iron.jpg" id="imgIco16">
+												</div>
+												<div class="productPrice">
+													<label>$<span id="price16">16.49</span></label>
+												</div>
+												<div class="productLabel">
+													<span class="productName" id="productName16">Vitron-C High Potency Iron Plus Vitamin C Coated Tablets, 60CT</span>
+												</div>
+												<div class="productAddBtn">
+													<p class="pQTY">QTY<input type="number" max="10" min="1"class="qauntity" id="qauntity16"/></p>
+													<button class="addBtn basket" id="addBasketBtn16">Add to Basket</button>
+												</div>
+											</div>
+										</div>
+
+									</div>
+									<div class="cartBasket" id="cartBasketDiv">
+										<div class="cartICon"><label class="carttitle">Shopping Cart</label></div>
+										<hr>
+										<div id="itemlistsDiv" class="ilistDiv">
+												<form class="cartForm" id="cartForm" method="POST" action="shopLogin.php">
+											
+												
+												<!--<div class="items" id="itemsDiv">
+													<div class="itemIcon" id="itemIcon"><img src="images/iron.jpg" class="imgg" /></div>
+													<div class="itemLab"><label id="itemlabel">Flintstones Complete Children's Multivitamin Supplement Gummies 25g</label>
+														<label class="qt">Qty:<span id="qtyNo">3</span></label> <!--<input type="text" class="qtyText">
+														<label class="prce">Price:US$200.00</label>
+													
+													</div>
+													-->
+											
+											
+										</div>
+										<div class="cartTotal" id="cartTotalDiv">
+										<div class="hiden"><input type="hidden" ></div>
+											<p name="total">Total<span class="cartPrice" id="cartPrice">US$<b id="cartprce"></b></span></p>
+											<input type="hidden"  value="" name="totals" id="total">
+										</div>
+										<div class="cartButton" id="cartBtnDiv">
+											<input type="Submit" class="cartBtn" id="cartButton" value="Confirm the Order"/>
+												<input type="hidden"  value="1" name="btn" id="total">
+										</div>
+										</form>
+									</div>
+									
+									
+								</div>
+								<!-- article div ends-->
+								<div class="clr"></div>								
+							</div>
+							
+						</main>
+						
+						<nav id="sidebar">
+							<div class="widget">
+								
+								
+							</div>
+						</nav>
+						
+						<div class="clr"></div>
+					</div>
+				</div>
+				<br style="clear: left;" />
+			</div>
+		
+			<div id="footerblurb">
+				<div id="footerblurb-inner">
+				</div>
+			</div>
+			<footer id="footer">
+				<div id="footer-inner">
+					<p>&copy; Copyright <a href="#">KC CLINIC</a> &#124; <a href="#">Terms of Use</a> &#124; <a href="#">Privacy Policy</a></p>
+					<div class="clr"></div>
+				</div>
+			</footer>
+			</div>
+			<script src="js.js" ></script>
+	</body>
+</html>
